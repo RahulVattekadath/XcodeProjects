@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727D212A208CCA6F005EBCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D2129208CCA6F005EBCDC /* AppDelegate.swift */; };
+		727D212C208CCA6F005EBCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D212B208CCA6F005EBCDC /* ViewController.swift */; };
+		727D212F208CCA6F005EBCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727D212D208CCA6F005EBCDC /* Main.storyboard */; };
+		727D2131208CCA70005EBCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727D2130208CCA70005EBCDC /* Assets.xcassets */; };
+		727D2134208CCA70005EBCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727D2132208CCA70005EBCDC /* LaunchScreen.storyboard */; };
+		727D213E208CCF3D005EBCDC /* stonehenge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727D213B208CCF3D005EBCDC /* stonehenge.jpg */; };
+		727D213F208CCF3D005EBCDC /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727D213C208CCF3D005EBCDC /* colosseum.jpg */; };
+		727D2140208CCF3D005EBCDC /* eiffeltower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727D213D208CCF3D005EBCDC /* eiffeltower.jpg */; };
+		727D2142208CCF50005EBCDC /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727D2141208CCF50005EBCDC /* tajmahal.jpg */; };
+		727D2144208CD082005EBCDC /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 727D2143208CD082005EBCDC /* greatwall.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		727D2126208CCA6F005EBCDC /* Landmark Image Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landmark Image Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727D2129208CCA6F005EBCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		727D212B208CCA6F005EBCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		727D212E208CCA6F005EBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		727D2130208CCA70005EBCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727D2133208CCA70005EBCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		727D2135208CCA70005EBCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727D213B208CCF3D005EBCDC /* stonehenge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehenge.jpg; sourceTree = "<group>"; };
+		727D213C208CCF3D005EBCDC /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		727D213D208CCF3D005EBCDC /* eiffeltower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffeltower.jpg; sourceTree = "<group>"; };
+		727D2141208CCF50005EBCDC /* tajmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpg; sourceTree = "<group>"; };
+		727D2143208CD082005EBCDC /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727D2123208CCA6F005EBCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		727D211D208CCA6F005EBCDC = {
+			isa = PBXGroup;
+			children = (
+				727D2128208CCA6F005EBCDC /* Landmark Image Book */,
+				727D2127208CCA6F005EBCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727D2127208CCA6F005EBCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727D2126208CCA6F005EBCDC /* Landmark Image Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727D2128208CCA6F005EBCDC /* Landmark Image Book */ = {
+			isa = PBXGroup;
+			children = (
+				727D2129208CCA6F005EBCDC /* AppDelegate.swift */,
+				727D212B208CCA6F005EBCDC /* ViewController.swift */,
+				727D212D208CCA6F005EBCDC /* Main.storyboard */,
+				727D2130208CCA70005EBCDC /* Assets.xcassets */,
+				727D213C208CCF3D005EBCDC /* colosseum.jpg */,
+				727D2141208CCF50005EBCDC /* tajmahal.jpg */,
+				727D2143208CD082005EBCDC /* greatwall.jpg */,
+				727D213D208CCF3D005EBCDC /* eiffeltower.jpg */,
+				727D213B208CCF3D005EBCDC /* stonehenge.jpg */,
+				727D2132208CCA70005EBCDC /* LaunchScreen.storyboard */,
+				727D2135208CCA70005EBCDC /* Info.plist */,
+			);
+			path = "Landmark Image Book";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727D2125208CCA6F005EBCDC /* Landmark Image Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727D2138208CCA70005EBCDC /* Build configuration list for PBXNativeTarget "Landmark Image Book" */;
+			buildPhases = (
+				727D2122208CCA6F005EBCDC /* Sources */,
+				727D2123208CCA6F005EBCDC /* Frameworks */,
+				727D2124208CCA6F005EBCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Landmark Image Book";
+			productName = "Landmark Image Book";
+			productReference = 727D2126208CCA6F005EBCDC /* Landmark Image Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727D211E208CCA6F005EBCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = rahulvattekadath;
+				TargetAttributes = {
+					727D2125208CCA6F005EBCDC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 727D2121208CCA6F005EBCDC /* Build configuration list for PBXProject "Landmark Image Book" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727D211D208CCA6F005EBCDC;
+			productRefGroup = 727D2127208CCA6F005EBCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727D2125208CCA6F005EBCDC /* Landmark Image Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727D2124208CCA6F005EBCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727D2134208CCA70005EBCDC /* LaunchScreen.storyboard in Resources */,
+				727D213F208CCF3D005EBCDC /* colosseum.jpg in Resources */,
+				727D213E208CCF3D005EBCDC /* stonehenge.jpg in Resources */,
+				727D2142208CCF50005EBCDC /* tajmahal.jpg in Resources */,
+				727D2131208CCA70005EBCDC /* Assets.xcassets in Resources */,
+				727D2140208CCF3D005EBCDC /* eiffeltower.jpg in Resources */,
+				727D212F208CCA6F005EBCDC /* Main.storyboard in Resources */,
+				727D2144208CD082005EBCDC /* greatwall.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727D2122208CCA6F005EBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727D212C208CCA6F005EBCDC /* ViewController.swift in Sources */,
+				727D212A208CCA6F005EBCDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		727D212D208CCA6F005EBCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727D212E208CCA6F005EBCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		727D2132208CCA70005EBCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727D2133208CCA70005EBCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		727D2136208CCA70005EBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		727D2137208CCA70005EBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		727D2139208CCA70005EBCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Landmark Image Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvattekadath.Landmark-Image-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		727D213A208CCA70005EBCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Landmark Image Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulvattekadath.Landmark-Image-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727D2121208CCA6F005EBCDC /* Build configuration list for PBXProject "Landmark Image Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727D2136208CCA70005EBCDC /* Debug */,
+				727D2137208CCA70005EBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727D2138208CCA70005EBCDC /* Build configuration list for PBXNativeTarget "Landmark Image Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727D2139208CCA70005EBCDC /* Debug */,
+				727D213A208CCA70005EBCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727D211E208CCA6F005EBCDC /* Project object */;
+}
